@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sudoko Solver - PHP || Zubaer Mahmud</title>
+  <title>Sudoku Solver - PHP || Zubaer Mahmud</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -45,7 +45,7 @@ if (isset($_GET['result'])) {
 
 <div class="container text-center">
     <br>
-    <h3>Sudoko Solver With PHP</h3>
+    <h3>Sudoku Solver With PHP</h3>
     <form id="frmId" onsubmit="return sendData();" method="post">
         <table class="table table-bordered">
             <?php if (isset($_GET['result'])) {?>
@@ -99,7 +99,7 @@ if (isset($_GET['result'])) {
         <?php } ?>
     </form>
     <br><br>
-    <b>Github Link : </b><a href="https://github.com/zubaermahmud71/Sudoko-Solver-With-PHP" target="_blank" rel="noopener noreferrer">Sudoko-Solver-With-PHP</a>
+    <b>Github Link : </b><a href="https://github.com/zubaermahmud71/Sudoku-Solver-With-PHP" target="_blank" rel="noopener noreferrer">Sudoku-Solver-With-PHP</a>
 </div>
 
 </body>
@@ -111,7 +111,7 @@ if (isset($_GET['result'])) {
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-body text-center">
-          <p>Solving Your Sudoko !!!<br>Please Wait ....</p>
+          <p>Solving Your Sudoku !!!<br>Please Wait ....</p>
         </div>
       </div>
       
