@@ -1,4 +1,4 @@
-# Sudoko-Solver-With-PHP
+# Sudoku-Solver-With-PHP
 Solving Sudoku With PHP
 
-Live Link : https://zubaermahmud.com/projects/sudoko-solver-php/
+Live Link : https://zubaermahmud.com/projects/sudoku-solver-php/
