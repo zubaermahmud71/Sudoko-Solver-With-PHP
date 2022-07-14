@@ -99,7 +99,7 @@ if (isset($_GET['result'])) {
         <?php } ?>
     </form>
     <br><br>
-    <b>Github Link : </b><a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    <b>Github Link : </b><a href="https://github.com/zubaermahmud71/Sudoko-Solver-With-PHP" target="_blank" rel="noopener noreferrer">Sudoko-Solver-With-PHP</a>
 </div>
 
 </body>
