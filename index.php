@@ -105,8 +105,25 @@ if (isset($_GET['result'])) {
 </body>
 </html>
 
+
+<div data-keyboard="false" data-backdrop="static" class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p>Solving Your Sudoko !!!<br>Please Wait ....</p>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
 <script>
     function sendData() {
+        $('#myModal').modal({
+          backdrop: 'static',
+          keyboard: false
+        })
         var arr = $('#frmId').serializeArray();
         $.ajax({
             type: 'post',
